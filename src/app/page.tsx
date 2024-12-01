@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Stickyheader from "@/components/ui/stickyheader";
 import Herosection from "@/components/herosection";
 import Services from "@/components/services";
