@@ -9,9 +9,9 @@ import {
 export default function Services(){
     return(
     <>
-        <div className="text-center my-10">
-            <h2 className="text-4xl font-bold mb-4">Our Services</h2>
-            <p className="text-lg text-muted-foreground">
+        <div className="text-center my-10 px-4 sm:px-6">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Services</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground">
             Empowering businesses with cutting-edge IT solutions tailored to your needs.
             </p>
         </div>
