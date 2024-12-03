@@ -25,7 +25,7 @@ export default function Services(){
     <p className="text-sm sm:text-base text-opacity-80 mb-4">
       Scalable and secure cloud solutions to streamline your business operations.
     </p>
-    <Button className="bg-green-500 hover:bg-green-600 text-white rounded-full px-6 py-2">
+    <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2">
       Learn More
     </Button>
   </div>
@@ -36,7 +36,7 @@ export default function Services(){
     <p className="text-sm sm:text-base text-opacity-80 mb-4">
       Protect your organization with robust and proactive security measures.
     </p>
-    <Button className="bg-green-500 hover:bg-green-600 text-white rounded-full px-6 py-2">
+    <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2">
       Learn More
     </Button>
   </div>
@@ -47,7 +47,7 @@ export default function Services(){
     <p className="text-sm sm:text-base text-opacity-80 mb-4">
       Build and optimize your IT systems for performance and scalability.
     </p>
-    <Button className="bg-green-500 hover:bg-green-600 text-white rounded-full px-6 py-2">
+    <Button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2">
       Learn More
     </Button>
   </div>
@@ -55,7 +55,7 @@ export default function Services(){
 
 <div className="my-16">
   <h2 className="text-4xl sm:text-5xl font-extrabold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-    FAQ's
+    FAQ
   </h2>
   <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto px-4 sm:px-6 bg-white p-8 rounded-lg shadow-lg">
     <AccordionItem value="item-1">

@@ -22,10 +22,10 @@ import {
       </div>
     </CardHeader>
     <CardContent className="flex space-x-4 justify-center py-8">
-      <Button className="bg-green-600 text-white hover:bg-green-700 px-6 py-3 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+      <Button className="bg-green-600 text-white hover:bg-green-700 px-6 py-3 text-lg shadow-lg transform transition-all duration-300 hover:scale-105">
         Learn More
       </Button>
-      <Button className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-full text-lg shadow-lg transform transition-all duration-300 hover:scale-105">
+      <Button className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 text-lg shadow-lg transform transition-all duration-300 hover:scale-105">
         Schedule a Call
       </Button>
     </CardContent>
