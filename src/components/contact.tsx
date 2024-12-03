@@ -56,7 +56,7 @@ export default function Contact(){
   <div className="text-center">
     <Button
       type="submit"
-      className="w-full sm:w-auto bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-white shadow-lg transform transition duration-300 hover:scale-105"
+      className="w-full sm:w-auto bg-green-600 hover:bg-green-700 px-6 py-3 text-white shadow-lg transform transition duration-300 hover:scale-105"
     >
       Send Message
     </Button>
