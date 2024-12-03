@@ -5,12 +5,12 @@ import {
 import { Card, CardContent } from "./ui/card"
  export default function Testimonials(){
     return(
-    <div className="my-16 text-center">
+    <div className="my-16 text-center px-4 sm:px-6">
          <h2 className="text-3xl font-bold mb-6">What Our Clients Say</h2>
             <p className="text-lg text-muted-foreground mb-10">
              See how we’ve helped businesses achieve their IT goals.
             </p>
-        <Carousel className="max-w-4xl mx-auto">
+        <Carousel className="max-w-4xl  sm:max-w-4xl mx-auto">
             <CarouselItem>
                 <Card className="shadow-md">
                     <CardContent>
@@ -48,21 +48,21 @@ import { Card, CardContent } from "./ui/card"
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-10">
             <Card className="shadow-sm">
                 <CardContent className="text-center">
-                    <h3 className="text-2xl font-bold">500+</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold">500+</h3>
                     <p className="text-muted-foreground">Projects Delivered</p>
                 </CardContent>
             </Card>
 
             <Card className="shadow-sm">
                 <CardContent className="text-center">
-                    <h3 className="text-2xl font-bold">200+</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold">200+</h3>
                     <p className="text-muted-foreground">Happy clients</p>
                 </CardContent>
             </Card>
 
             <Card className="shadow-sm">
                 <CardContent className="text-center">
-                    <h3 className="text-2xl font-bold">10+</h3>
+                    <h3 className="text-2xl sm:text-3xl font-bold">10+</h3>
                     <p className="text-muted-foreground">Years in Business</p>
                 </CardContent>
             </Card>
