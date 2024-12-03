@@ -16,10 +16,10 @@ export default function Stickyheader(){
       <div className="max-w-7xl mx-auto p-4 flex items-center justify-between">
         <h1 className="text-lg font-bold">Halix Tech Solutions</h1>
         <nav className="hidden md:flex space-x-6">
-        <a href="/" className="text-muted-foreground hover:text-primary">Home</a>
-          <a href="/about" className="text-muted-foreground hover:text-primary">About</a>
-          <a href="/services" className="text-muted-foreground hover:text-primary">Services</a>
-          <a href="/contact" className="text-muted-foreground hover:text-primary">Contact</a>
+          <Link href="/" className="text-muted-foreground hover:text-primary">Home</Link>
+          <Link href="/about" className="text-muted-foreground hover:text-primary">About</Link>
+          <Link href="/services" className="text-muted-foreground hover:text-primary">Services</Link>
+          <Link href="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
         </nav>
         <ModeToggle />
       <Menubar>
