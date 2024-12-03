@@ -1,5 +1,6 @@
 import { ModeToggle } from "./modetoggle"
 import { Button } from "./button"
+import Link from "next/link"
 import {
   Menubar,
   MenubarContent,
@@ -30,16 +31,16 @@ export default function Stickyheader(){
             </MenubarTrigger>
           <MenubarContent>
             <MenubarItem>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </MenubarItem>
             <MenubarItem>
-              <a href="/about">About</a>
+              <Link href="/about">About</Link>
             </MenubarItem>
             <MenubarItem>
-              <a href="/services">Services</a>
+              <Link href="/services">Services</Link>
             </MenubarItem>
             <MenubarItem>
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contact</Link>
             </MenubarItem>
           </MenubarContent>
         </MenubarMenu>
