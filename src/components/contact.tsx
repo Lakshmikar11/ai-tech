@@ -6,15 +6,15 @@ import { Textarea } from "./ui/textarea"
 
 export default function Contact(){
     return(
-        <div className="my-16">
+        <div className="my-16 px-4 sm:px-6">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold">Get in Touch</h2>
+                <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
                 <p className="text-lg text-muted-foreground">
                     Have questions or need assistance? We’re here to help.
                 </p>
             </div>
 
-            <Card className="shadow-md max-w-4xl mx-auto">
+            <Card className="shadow-md max-w-4xl sm:max-w-4xl mx-auto">
                 <CardContent>
                     <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
@@ -40,6 +40,7 @@ export default function Contact(){
                             id="message"
                             placeholder="Type your message here..."
                             rows={5}
+                            className="w-full"
                         />
                     </div>
 

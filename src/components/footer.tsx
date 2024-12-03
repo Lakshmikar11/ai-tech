@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 export default function Footer() {
   return (
     <footer className="bg-background text-foreground py-12">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {/* Logo and Tagline */}
         <div>
           <h2 className="text-2xl font-bold">Halix Tech Solutions</h2>
@@ -37,8 +37,8 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-4">Stay Connected</h3>
           <form className="space-y-4">
-            <Input type="email" placeholder="Your Email Address" />
-            <Button>Subscribe</Button>
+            <Input type="email" placeholder="Your Email Address" className="w-full" />
+            <Button className="w-full">Subscribe</Button>
           </form>
         </div>
       </div>
