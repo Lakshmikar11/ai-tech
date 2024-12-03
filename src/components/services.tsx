@@ -42,7 +42,7 @@ export default function Services(){
 
         <div className="my-10">
         <h2 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions</h2>
-            <Accordion type="single" collapsible className="w-full max-w-2xl items-center mx-auto">
+            <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto px-4 sm:px-6">
                 <AccordionItem value="item-1">
                     <AccordionTrigger  className="text-lg font-semibold">Is it accessible?</AccordionTrigger>
                     <AccordionContent>
