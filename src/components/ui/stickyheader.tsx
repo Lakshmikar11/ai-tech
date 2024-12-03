@@ -27,7 +27,7 @@ export default function Stickyheader(){
       <Link href="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
     </nav>
 
-    <div className="hidden md:flex space-x-4">
+    <div className="flex md-4 space-x-6">
             <a
               href="https://github.com"
               target="_blank"
