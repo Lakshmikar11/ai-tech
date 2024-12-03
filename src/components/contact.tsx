@@ -1,5 +1,4 @@
 import { Button } from "./ui/button"
-import { Card, CardContent } from "./ui/card"
 import { Label } from "./ui/label"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
@@ -18,49 +17,49 @@ export default function Contact(){
     <form className="max-w-2xl mx-auto space-y-6 bg-white p-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
     <div>
-      <label htmlFor="name" className="block text-sm font-medium text-gray-800 mb-2">
+      <Label htmlFor="name" className="block text-sm font-medium text-gray-800 mb-2">
         Name
-      </label>
-      <input
+      </Label>
+      <Input
         id="name"
         type="text"
         placeholder="Your Full Name"
-        className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400"
+        className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2"
       />
     </div>
 
     <div>
-      <label htmlFor="email" className="block text-sm font-medium text-gray-800 mb-2">
+      <Label htmlFor="email" className="block text-sm font-medium text-gray-800 mb-2">
         Email
-      </label>
-      <input
+      </Label>
+      <Input
         id="email"
         type="email"
         placeholder="yourname@example.com"
-        className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400"
+        className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2"
       />
     </div>
   </div>
 
   <div>
-    <label htmlFor="message" className="block text-sm font-medium text-gray-800 mb-2">
+    <Label htmlFor="message" className="block text-sm font-medium text-gray-800 mb-2">
       Message
-    </label>
-    <textarea
+    </Label>
+    <Textarea
       id="message"
       placeholder="Type your message here..."
       rows={5}
-      className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-green-400"
+      className="w-full bg-gray-100 text-gray-800 placeholder-gray-400 rounded-lg shadow-sm px-4 py-2 focus:outline-none focus:ring-2"
     />
   </div>
 
   <div className="text-center">
-    <button
+    <Button
       type="submit"
       className="w-full sm:w-auto bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-white shadow-lg transform transition duration-300 hover:scale-105"
     >
       Send Message
-    </button>
+    </Button>
   </div>
 </form>
 

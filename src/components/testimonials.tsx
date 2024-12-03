@@ -2,7 +2,6 @@ import {
     Carousel,
     CarouselItem,
   } from "@/components/ui/carousel"
-import { Card, CardContent } from "./ui/card"
  export default function Testimonials(){
     return(
         <div className="bg-gradient-to-r from-purple-800 via-indigo-700 to-blue-900 text-white py-16 px-6">
