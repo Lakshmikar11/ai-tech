@@ -1,4 +1,3 @@
-import { Card, CardContent } from "./ui/card"
 export default function About(){
     return(
         <div className="my-16 px-4 sm:px-6">
