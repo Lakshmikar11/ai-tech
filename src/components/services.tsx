@@ -1,10 +1,3 @@
-import {
-    Card,
-    CardContent,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card"
 import { Button } from "./ui/button"
 import {
     Accordion,
@@ -23,43 +16,29 @@ export default function Services(){
             </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card>
-                <CardHeader>
-                    <CardTitle>Cybersecurity</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <p>Protect your digital assets with our robust cybersecurity services</p>
-                </CardContent>
-                <CardFooter>
-                    <Button>Learn More</Button>
-                </CardFooter>
-            </Card>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-8 py-8">
+  {/* Service 1 */}
+  <div className="p-4 bg-white shadow rounded flex flex-col items-center">
+    <h3 className="text-xl font-semibold mb-4">Service 1</h3>
+    <p className="mb-4">Description for Service 1</p>
+    <Button className="bg-primary text-white hover:bg-primary-dark">Learn More</Button>
+  </div>
 
-            <Card>
-                <CardHeader>
-                    <CardTitle>Cloud Computing</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <p>Optimize your business with scalable and secure cloud solutions</p>
-                </CardContent>
-                <CardFooter>
-                    <Button>Learn More</Button>
-                </CardFooter>
-            </Card>
+  {/* Service 2 */}
+  <div className="p-4 bg-white shadow rounded flex flex-col items-center">
+    <h3 className="text-xl font-semibold mb-4">Service 2</h3>
+    <p className="mb-4">Description for Service 2</p>
+    <Button className="bg-primary text-white hover:bg-primary-dark">Learn More</Button>
+  </div>
 
-            <Card>
-                <CardHeader>
-                    <CardTitle>IT Infrastructure</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <p>Streamline operations with our reliable IT infrastructure solutions</p>
-                </CardContent>
-                <CardFooter>
-                    <Button>Learn More</Button>
-                </CardFooter>
-            </Card>
-        </div>
+  {/* Service 3 */}
+  <div className="p-4 bg-white shadow rounded flex flex-col items-center">
+    <h3 className="text-xl font-semibold mb-4">Service 3</h3>
+    <p className="mb-4">Description for Service 3</p>
+    <Button className="bg-primary text-white hover:bg-primary-dark">Learn More</Button>
+  </div>
+</div>
+
 
         <div className="my-10">
         <h2 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions</h2>

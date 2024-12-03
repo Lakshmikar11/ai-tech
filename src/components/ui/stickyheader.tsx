@@ -1,4 +1,3 @@
-import { ModeToggle } from "./modetoggle"
 import { Button } from "./button"
 import Link from "next/link"
 import {
@@ -21,7 +20,7 @@ export default function Stickyheader(){
           <Link href="/services" className="text-muted-foreground hover:text-primary">Services</Link>
           <Link href="/contact" className="text-muted-foreground hover:text-primary">Contact</Link>
         </nav>
-        <ModeToggle />
+        
       <Menubar>
         <MenubarMenu>
             <MenubarTrigger asChild className="md:hidden">
