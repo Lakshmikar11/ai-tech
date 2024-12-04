@@ -59,13 +59,13 @@ export default function Stickyheader(){
             <Link href="/">Home</Link>
           </MenubarItem>
           <MenubarItem>
-            <Link href="/about">About</Link>
+            <Link href="/aboutpage">About</Link>
           </MenubarItem>
           <MenubarItem>
-            <Link href="/services">Services</Link>
+            <Link href="/servicepage">Services</Link>
           </MenubarItem>
           <MenubarItem>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contactpage">Contact</Link>
           </MenubarItem>
         </MenubarContent>
       </MenubarMenu>
