@@ -138,7 +138,7 @@ export default function AboutPage() {
   <div className="max-w-6xl mx-auto text-center">
     <h2 className="text-3xl font-semibold text-white mb-6">Ready to Transform Your Business?</h2>
     <p className="text-lg text-white mb-8">
-      Our expert team is ready to help you drive growth through innovative technology solutions. Let's start the conversation today!
+      Our expert team is ready to help you drive growth through innovative technology solutions. Let&apos;s start the conversation today!
     </p>
     <Button className="px-8 py-4 bg-white text-indigo-600 font-semibold shadow-lg hover:bg-gray-100 transition-all duration-300">
       Get in Touch

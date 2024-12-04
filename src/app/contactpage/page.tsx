@@ -9,7 +9,7 @@ export default function Contactpage(){
   <section className="text-center space-y-6 py-10 border-b border-gray-300 bg-gradient-to-r from-blue-50 to-blue-100">
   <h1 className="text-5xl font-extrabold tracking-tight text-gray-900">Contact Us</h1>
   <p className="text-lg leading-relaxed max-w-3xl mx-auto text-gray-700">
-  We're here to help! Whether you have a question about our services or want to discuss how we can assist your business, get in touch with us today.
+  We&apos;re here to help! Whether you have a question about our services or want to discuss how we can assist your business, get in touch with us today.
   </p>
 </section>
 
@@ -80,7 +80,7 @@ export default function Contactpage(){
   {/* Call to Action Section */}
   <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
     <div className="max-w-6xl mx-auto text-center">
-      <h2 className="text-3xl font-semibold text-white mb-6">Let's Start the Conversation</h2>
+      <h2 className="text-3xl font-semibold text-white mb-6">Let&apos;s Start the Conversation</h2>
       <p className="text-lg text-white mb-8">
         Our team is ready to help you take your business to the next level. Reach out now to get started!
       </p>
