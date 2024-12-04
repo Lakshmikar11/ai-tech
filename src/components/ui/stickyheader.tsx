@@ -23,8 +23,8 @@ export default function Stickyheader(){
     <nav className="hidden md:flex space-x-6">
       <Link href="/" className="text-muted-foreground hover:text-primary">Home</Link>
       <Link href="/aboutpage" className="text-muted-foreground hover:text-primary">About</Link>
-      <Link href="/" className="text-muted-foreground hover:text-primary">Services</Link>
-      <Link href="/test" className="text-muted-foreground hover:text-primary">Contact</Link>
+      <Link href="/servicepage" className="text-muted-foreground hover:text-primary">Services</Link>
+      <Link href="/contactpage" className="text-muted-foreground hover:text-primary">Contact</Link>
     </nav>
 
     <div className="flex md-4 space-x-6">
